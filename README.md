@@ -23,7 +23,9 @@ Users can play a simple game of rock-paper-scissors against the bot.
 ### Slots
 Users can play a slot machine game, where they spin the wheel and win tokens based on the resulting combination.
 
-## Winning Combinations
+## Winning Multipliers
+
+### Slots
 
 Combination | Payout
 ------------|-------
@@ -37,6 +39,47 @@ Combination | Payout
 🍑🍑💵     | 14x   
 🍎🍎🍎      | 10x   
 🍎🍎💵      | 10x   
+
+### Blackjack
+
+Outcome | Payout
+--------|-------
+Win     | 2.5x the bet
+Draw    | Return of the bet
+
+### Roulette
+
+Bet | Payout
+----|-------
+Red or Black | 2x the wager
+Green | 36x the wager
+
+## Available Commands
+
+!blackjack <bet>     - Start a game of blackjack.
+!hit                 - Draw another card in blackjack.
+!stand               - End your turn and let the dealer play in blackjack.
+!double              - Double your bet and take exactly one more card in blackjack.
+!split               - Split your hand into two if you have a pair in blackjack.
+!bet1 <bet>          - Place your bet for the first hand after splitting in blackjack.
+!bet2 <bet>          - Place your bet for the second hand after splitting in blackjack.
+!slots <wager>       - Play the slot machine. Win the jackpot with 3 💰.
+!roulette <wager> <color>  - Play roulette. Pick between Black, Red, and Green or choose a number & up to three bets using "," as a separator.
+!rps <move>          - Play Rock, Paper, Scissors for free and win 100 tokens!
+!crash               - Start a Crash Game.
+!crash <wager>       - Wager on an active Crash Game. React with a "🛑" to the multiplier message to exit the game.
+!leaderboard         - Display the leaderboard.
+!balance             - Check your current token balance.
+!daily               - Claim your daily tokens.
+!hourly              - Claim your hourly tokens.
+!monthly             - Claim your monthly tokens.
+!distribution        - Display the winning combinations and multipliers.
+!shop                - View available items in the shop.
+!buy <item_name>     - Buy an item from the shop.
+!inventory           - View your inventory.
+!pay <user> <amount> - Give tokens to another user.
+!helps               - Display the help menu.
+
 
 ## Token System
 The bot uses a token system for purchasing items and placing bets. Users can earn tokens by winning games.
