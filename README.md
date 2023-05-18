@@ -14,6 +14,18 @@ Rock, Paper, Scissors: Users can play a simple game of rock-paper-scissors again
 
 Slots: Users can play a slot machine game, where they spin the wheel and win tokens based on the resulting combination.
 
+Combination	Payout
+💰💰💰	200x
+💵💵💵	100x
+🍉🍉🍉	100x
+🍉🍉💵	100x
+🔔🔔🔔	18x
+🔔🔔💵	18x
+🍑🍑🍑	14x
+🍑🍑💵	14x
+🍎🍎🍎	10x
+🍎🍎💵	10x
+
 Token System: The bot uses a token system for purchasing items and placing bets. Users can earn tokens by winning games.
 
 Data Persistence: The bot uses SQLite for data persistence, storing user token balances and scores in a local database.
